@@ -1,0 +1,18 @@
+title: Join
+icon: 😅
+
+sections:
+  content:
+    type: fields
+    fields:
+      secTitle:
+        label: Seiten Überschrift
+        type: text
+      walzer:
+        label: Für Walzer
+        type: text
+        # On the left, you will find the requirements for joining the DESIGN WALZ as a Walzer. You’ll find some benefits aswell. Don’t hasitat to ask, if there are futher questions.
+      walzer:
+        label: Für Hosts
+        type: text
+        # On the right hand side , you will find the requirements for joining the DESIGN WALZ as a Host. You’ll find some benefits aswell. Don’t hasitat to ask, if there are futher questions or thoughts that could help you and other Hosts.

@@ -1,0 +1,27 @@
+title: Site
+
+sections:
+  pages:
+    label: Öffentliche Cases
+    type: pages
+    layout: cards
+    status: listed
+    image:
+      ratio: 1/1
+      cover: true
+  Drafts:
+    type: pages
+    layout: list
+    status: drafts
+  unpages:
+    label: Öffentliche Cases
+    type: pages
+    layout: list
+    status: unlisted
+  generell:
+    type: fields
+    fields:
+      meta:
+        type: textarea
+        buttons: false
+        width: 1/2

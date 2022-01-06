@@ -1,0 +1,28 @@
+title: support
+----
+
+support_text: A network is better build up together, so you are invited to take part in it!
+We are open for any suggestions or feedback – in person or via mail – and looking forward to hearing about your ideas!
+
+----
+support_button: support us
+----
+email_support: vero@designwalz.com
+----
+email_support_subject: ?subject=Support%20the%20Design%20Walz&amp;
+----
+email_support_body: body=Hello.%0D%0AI%20would%20love%20to%20support%20you.
+----
+
+
+donate_text: To continue our work and to pay for the necessities unfortunately we also need some money (website programming, web space, organization, etc.). You can also support this project by donating.
+----
+donate_button: donate!
+
+----
+email_donate: alex@designwalz.com
+----
+email_donate_subject: ?subject=Donation&amp;
+----
+email_donate_body: body=Hallo.%0D%0AWe%20are%20still%20figuring%20out%20how%20we%20can%20proceed%20Donations.%20If%20you%20contact%20us,%20we%20will%20find%20a%20quick%20solution.
+----

@@ -1,0 +1,76 @@
+Title: join
+
+----
+
+secTitle: How to join the DESIGN WALZ
+
+----
+
+thirdTitle: How to join
+
+----
+
+walzer: »That sounds great! I finished my studies in a design subject and want to go on a Design Walz.«
+Click here and write us – we will be in touch.
+
+----
+
+walzer_button: join as Walzer
+----
+email_new_walzer: hallo@designwalz.com
+----
+email_new_walzer_subject: ?subject=Join%20as%20Walzer&amp;
+----
+email_new_walzer_body: body=Hello.%0D%0AI%20am%20interessted%20to%20join%20the%20Design%20Walz%20as%20Walzer.
+----
+
+
+host: »Sounds awesome! We want to be part of that.«
+If you are able to host a Walzer, get listed that a Walzer can join your company or agency for a while.
+Click here and write us – we will be in touch.
+
+----
+
+host_button: join as Host
+----
+email_new_host: hallo@designwalz.com
+----
+email_new_host_subject: ?subject=Join%20as%20Host&amp;
+----
+email_new_host_body: body=Hello.%0D%0AWe%20are%20interessted%20in%20hosting%20a%20Walzer.
+----
+
+page_entry_w: On the left, you will find the requirements for joining the DESIGN WALZ as a Walzer. You’ll find some benefits aswell. Don’t hasitat to ask, if there are futher questions.
+
+----
+
+page_entry_h: On the right hand side , you will find the requirements for joining the DESIGN WALZ as a Host. You’ll find some benefits aswell. Don’t hasitat to ask, if there are futher questions or thoughts that could help you and other Hosts.
+----
+
+head_benefits: Benefits and a little reminder
+
+----
+benefits_w:
+- benefit: Walzers get more experience in a shorter time
+- benefit: Travel differnet countries
+- benefit: Collaboration with different people, sharing knowledge
+- benefit: Discovering all fields of interest – generalism
+- benefit: Focus on design, not income – basic needs are provided getting
+- benefit: Knowing colleags on a more personal level by spending more time together
+----
+benefits_h:
+- benefit: Collaborating with different People from different Backgrounds
+- benefit: fluctuation of walzers
+- benefit: highly motivated people due to free choice of work inviroment
+- benefit: curiosity and expanding the comfort Zone
+- benefit: low-monetary pay through food & lodging plus what you negotiated
+- benefit: getting to know people personally by letting them into their lives
+
+----
+reminder_w: A Design Walz is a serious way of further education. Do not take a walz lighthearted and use it s a gap filler. Beeing a walzer means to be fully committed to the whole journey and to treat every person and every task with respect.
+If you want to do it, do it right!
+
+----
+reminder_h: A walz is a serious way of further education – not only for the Walzer but also for yourself. Trust one another and see the benifit in people that are different to you. Be open to learn from them and teach them equally. They are not cheap workers, they are valuable collaboration partners and so are you!
+
+----

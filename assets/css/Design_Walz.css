@@ -1,0 +1,69 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3812814, 2019-09-29T17:24:14-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: TTHoves-DemiBoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-hoves/demi-bold-italic/
+ *
+ * Webfont: TTHoves-DemiBold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-hoves/demi-bold/
+ *
+ * Webfont: TTHoves-Regular by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-hoves/regular/
+ *
+ * Webfont: TTHoves-Light by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-hoves/light/
+ *
+ * Webfont: TTHoves-MediumItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-hoves/medium-italic/
+ *
+ * Webfont: TTHoves-Italic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-hoves/italic/
+ *
+ * Webfont: TTHoves-LightItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-hoves/light-italic/
+ *
+ * Webfont: TTHoves-Medium by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-hoves/medium/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3812814
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2019 by TypeType. Designers Ivan Gladkikh, Pavel Emelyanov. Technical designers Marina Khodak, Nadezhda Polomoshnova, Kseniya Karataeva, Olexa Volochay, Nadyr Rakhimov. All rights reserved.
+ *
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3a2dce");
+
+
+@font-face {font-family: 'TTHoves-DemiBoldItalic';src: url('../webfonts/3A2DCE_0_0.ttf') format('truetype');src: url('../webfonts/3A2DCE_0_0.eot'),url('../webfonts/3A2DCE_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A2DCE_0_0.woff2') format('woff2'),url('../webfonts/3A2DCE_0_0.woff') format('woff');}
+
+
+@font-face {font-family: 'TTHoves-DemiBold';src: url('../webfonts/3A2DCE_1_0.eot');src: url('../webfonts/3A2DCE_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A2DCE_1_0.woff2') format('woff2'),url('../webfonts/3A2DCE_1_0.woff') format('woff'),url('../webfonts/3A2DCE_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'TTHoves-Regular';src: url('../webfonts/3A2DCE_2_0.eot');src: url('../webfonts/3A2DCE_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A2DCE_2_0.woff2') format('woff2'),url('../webfonts/3A2DCE_2_0.woff') format('woff'),url('../webfonts/3A2DCE_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'TTHoves-Light';src: url('../webfonts/3A2DCE_3_0.eot');src: url('../webfonts/3A2DCE_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A2DCE_3_0.woff2') format('woff2'),url('../webfonts/3A2DCE_3_0.woff') format('woff'),url('../webfonts/3A2DCE_3_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'TTHoves-MediumItalic';src: url('../webfonts/3A2DCE_4_0.eot');src: url('../webfonts/3A2DCE_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A2DCE_4_0.woff2') format('woff2'),url('../webfonts/3A2DCE_4_0.woff') format('woff'),url('../webfonts/3A2DCE_4_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'TTHoves-Italic';src: url('../webfonts/3A2DCE_5_0.eot');src: url('../webfonts/3A2DCE_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A2DCE_5_0.woff2') format('woff2'),url('../webfonts/3A2DCE_5_0.woff') format('woff'),url('../webfonts/3A2DCE_5_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'TTHoves-LightItalic';src: url('../webfonts/3A2DCE_6_0.eot');src: url('../webfonts/3A2DCE_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A2DCE_6_0.woff2') format('woff2'),url('../webfonts/3A2DCE_6_0.woff') format('woff'),url('../webfonts/3A2DCE_6_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'TTHoves-Medium';src: url('../webfonts/3A2DCE_7_0.eot');src: url('../webfonts/3A2DCE_7_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/3A2DCE_7_0.woff2') format('woff2'),url('../webfonts/3A2DCE_7_0.woff') format('woff'),url('../webfonts/3A2DCE_7_0.ttf') format('truetype');}

@@ -1,0 +1,14 @@
+Title: Error
+
+----
+
+secTitle: Sorry, this site doesn't exist.
+
+----
+text_1: Visit us here:
+
+----
+text_2: By working in several agencies and companies you are able to build a sustainable network with meaningful contacts. Going on a Walz means expanding your comfort zone while focussing on learning and your creativity. A Walz is based on trust and respect between all participants.
+----
+text_3: We adapted the idea of the Walz from an old craftsman tradition and want to implement it for Designers. One of the obstacles is the missing contact to a network that could support people on their Walz. So we want to build that community.
+----

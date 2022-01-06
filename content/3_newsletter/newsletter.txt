@@ -1,0 +1,11 @@
+Title: Newsletter
+
+----
+
+secTitle: newsletter
+
+----
+
+button_footer: sign in
+
+----

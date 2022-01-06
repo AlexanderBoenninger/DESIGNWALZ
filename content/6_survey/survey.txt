@@ -1,0 +1,23 @@
+Title: survey
+
+----
+
+secTitle: Survey
+
+----
+
+about: We need to know more about you as Host or Walzer, to make ist easier to form this network. You would be a gamechanger if you could take a few minuts to fill out our Survey.
+
+----
+
+walzer_button: Questions for Walzers
+
+----
+
+host: »Sounds awesome! We want to be part of that.«
+If you are able to host a Walzer, get listed that a Walzer can join your company or agency for a while.
+Click here and write us – we will be in touch.
+
+----
+
+host_button: Questions for Hosts
