@@ -1,0 +1,20 @@
+title: Survey
+
+icon: ⁉️
+
+sections:
+  content:
+    type: fields
+    fields:
+      Banner:
+        label: Umfrage
+        type: headline
+        width: 3/4
+      tomenu:
+        type: toggle
+        default: false
+        width: 1/4
+        help: max 3 Stück
+        text:
+          - "nope"
+          - "Ja, is wichtig!"

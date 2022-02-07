@@ -1,0 +1,83 @@
+Opener-pic-1:
+
+- sticker_1.svg
+
+----
+
+Opener-pic-2:
+
+- sticker_2.svg
+
+----
+
+Opener-pic-3:
+
+- sticker_3.svg
+
+----
+
+Opener-pic-4:
+
+- sticker_4.svg
+
+----
+
+Opener-pic-5:
+
+- sticker_5.svg
+
+----
+
+Mobile-opener-pic-1:
+
+- mobile_sticker_1.svg
+
+----
+
+Mobile-opener-pic-2:
+
+- mobile_sticker_2.svg
+
+----
+
+Mobile-opener-pic-3:
+
+- mobile_sticker_3.svg
+
+----
+
+Mobile-opener-pic-4:
+
+- mobile_sticker_4.svg
+
+----
+
+Mobile-opener-pic-5:
+
+- mobile_sticker_5.svg
+
+----
+
+Sectitle: Network now
+
+----
+
+Text:
+
+Design Walz is a way of continuing to share knowledge while traveling around the country, continent or world.
+
+By working in several agencies and companies you are able to build a sustainable network with meaningful contacts. Going on a Walz means expanding your comfort zone while focussing on learning and your creativity. A Walz is based on trust and respect between all participants.
+
+We adapted the idea of the Walz from an old craftsman tradition and want to implement it for Designers. One of the obstacles is the missing contact to a network that could support people on their Walz. So we want to build that community.
+
+----
+
+Joinbannerwalzer:
+
+You are finished studying of any design subject or you already finshed your study and want to go on a Design Walz!
+
+If you have got futher questions, look in the FAQ or send us a message.!
+
+----
+
+Joinbannerhost: You are able to host a Walzer, get listed, and maybe the next Walzer will step by in your company or agency. If you are not sure to be  well prepered for that visit, have a look in our FAQ or send us a message.

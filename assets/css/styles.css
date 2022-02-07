@@ -38,13 +38,19 @@ body {
 .white_typo {
   color: var(--white);
 }
+.blass_typo {
+  opacity: 0.4;
+}
 .white_border {
   border-color: var(--white)!important;
 }
 .green {
   background: var(--green);
 }
-
+.orange_typo {
+  color: var(--orange);
+  border-color: var(--orange)!important;
+}
 *, html {
   font-family: "TTHoves-Medium", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -62,8 +68,11 @@ h1 {
 h3, h4, .mail_address, .number {
   font-family: "TTHoves-DemiBold", Helvetica, Arial, sans-serif;
   font-size: 1.6em;
-}
 
+}
+h3 {
+  line-height: 1.2em;
+}
 h2 {
   font-family: "TTHoves-DemiBold", Helvetica, Arial, sans-serif;
   font-size: 2.5em;
@@ -72,24 +81,22 @@ h2 {
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.25em;
   line-height: 1.3em;
   margin: 20px 0px 0px 0px;
 }
 
-h3 {
-  line-height: 1.2em;
-}
 
 p {
   margin: 0px;
+  font-size: 1.25em;
 }
 .headline_center{
   text-align: center;
   grid-column: 3 /-3
 }
 
-.big_brot, .big_brot_container p {
+.big_brot, .big_brot_container p, .big_brot_container span {
   font-size: 2.5em;
   line-height: 1.12em;
 }
@@ -97,15 +104,22 @@ p {
   text-indent: 0.5em;
 }
 
-.mittel_brot {
+.mittel_brot, .mittel_brot p {
   font-size: 1.8em;
 }
 
-.normal_brot {
+.normal_brot, .normal_brot p, .normal_brot span {
   font-size: 1.25em;
 }
-
-.badass_small {
+.light_brot_sturz span {
+  font-family: "TTHoves-Light", Helvetica, Arial, sans-serif;
+  opacity: 0.4;
+  letter-spacing: 0.8px;
+}
+.small_brot, .small_brot p {
+  font-size: 1em;
+}
+.badass_small, .badass_small p {
   font-size: 0.8em;
 }
 
@@ -172,15 +186,36 @@ em {
   font-style: normal;
   font-family: "TTHoves-MediumItalic", Helvetica, serif, Arial, sans-serif;
 }
+  /* __________basic___________ */
+.activ{
+  /* TO DO */
+}
+.activ_numb{
+
+}
+.hidden{
+  display: none;
+}
+.pointer{
+  cursor: pointer;
+}
 
 .space_top_20p {
   margin-top: 20px;
 }
+.padding_top_20p {
+  padding-top: 20px;
+}
+
 .space_left_20p {
   margin-left: 20px;
 }
+
 .space_top_40p {
   margin-top: 40px;
+}
+.padding_top_40p {
+  padding-top: 40px;
 }
 
 .space_top_80p {
@@ -198,6 +233,9 @@ em {
 .space_bottom_80p {
   margin-bottom: 80px;
 }
+.padding_bottom_80p {
+  padding-bottom: 80px;
+}
 
 /* __________________________________________________________________ */
 header,
@@ -206,8 +244,7 @@ header,
 #join,
 #about,
 #survey,
-#double_text_head,
-#double_benefits,
+.double_content,
 .team_container,
 #support,
 footer,
@@ -232,6 +269,13 @@ display: none;
   display: grid;
 }
 
+.grid_row_2{
+  grid-row: 2;
+}
+.grid_row_1{
+  grid-row: 1;
+}
+
 /* __________________________________________________________________ */
 .branding {
   grid-column: 2 / span 5;
@@ -247,7 +291,6 @@ display: none;
   grid-row: 1;
   margin-top: 20px;
   place-self: end;
-  height: 47.75px;
   z-index: 2;
 }
 
@@ -255,12 +298,21 @@ display: none;
   display: none;
 }
 
-.burger {
-  width: 25px;
+.burger_container {
+  width: auto;
+  height: 25px;
+  display: inline-block;
+}
+.burger, .closer {
+  margin-left: 1em;
+  width: 38px;
+  height: 28px;
+  stroke:var(--black);
+  stroke-width: 5;
+  transform-origin: 50% 50%;
 }
 
 .closer {
-  width: 25px;
   display: none;
 }
 
@@ -301,11 +353,18 @@ hr:first-of-type {
 
 .languages_cont {
   display: inline-block;
+  position: relative;
+  top: -1em;
 }
 
 .languages {
   display: grid;
   margin-left: 20px;
+}
+.languages span {
+  /* margin: 0px 0px -5px 0px; */
+  text-transform: uppercase;
+  font-size: 0.6em;
 }
 
 .show {
@@ -343,10 +402,10 @@ hr:first-of-type {
 
 .click_stack_2_r, .click_stack_2_l {
   top: 0px!important;
-  left: -6px !important;
+  left: -5px !important;
 }
 .click_stack_2_l {
-  left: -6px !important;
+  left: -5px !important;
 }
 
 .stack_5_r, .stack_5_l {
@@ -369,7 +428,7 @@ hr:first-of-type {
 }
 
 .button_text {
-  padding: 0px 20px;
+  padding: 5px 20px;
   text-align: center;
 }
 .hover_react{
@@ -387,10 +446,11 @@ hr:first-of-type {
     var(--transparent) 2%, var(--black) 2%,
     var(--black) 3%, var(--transparent) 3%);
 }
-.sm_buttons a{
-  display: block;
-  float: left;
+
+.stack_content h3, .stack_content .quick_how, .stack_content .expand_how{
+  padding: 0px 2rem ;
 }
+
 /* __________Double_pages___________ */
 .double_page_desk{
 position: fixed;
@@ -400,15 +460,52 @@ z-index: -20;
 height: 100%;
 top: 0px;
 }
+.double_page_index span{
+transform:rotate(-90deg);
+text-align: center;
+transform-origin: center center;
+height: 1.5em;
+width: 8em;
+display: block;
+}
 
-.double_page_host{
+.double_page{
+  display: flex;
   flex-grow: 2;
 }
+.dpi_host{
+  justify-content: flex-end;
+}
+.dpi_walzer{
+  justify-content: flex-start;
+}
+.dpi_host div, .dpi_walzer div {
+position: relative;
+top: 50vh;
+left:-3.6em;
+}
+.dpi_host div{
+  left:3.8em;
+}
+
+
 .for_walzer{
   grid-column: 3 /span 4;
 }
+.walzer_breit{
+  grid-column: 3 /span 5;
+}
+
 .for_host{
   grid-column: 9 /span 4;
+}
+.host_breit{
+  grid-column: 8 /span 5;
+}
+
+.double_image{
+  margin: 0 auto;
+  display: inherit;
 }
 /* ______________________________________Opener____________________________ */
 .mobile_opener_pic {
@@ -432,6 +529,42 @@ top: 0px;
 .project_content, .about_content {
   grid-column: 2/-4;
 }
+/* ________________________how it works__________________________________________ */
+.quick_how{
+
+}
+
+.numbers{
+  display: flex;
+  align-items: center;
+}
+.numbers hr{
+  position: relative;
+  border: 2;
+  width: 3rem;
+  height: 50px;
+  background-color: red;
+  margin: 0px
+}
+.number{
+  border: var(--line_thick) solid var(--black);
+  background-color: var(--white);
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  width: 1.8em;
+  height: 1.8em;
+  position: relative;
+  z-index: 1;
+}
+
+.number span{
+  margin: auto auto;
+}
+.quick_step_contents{
+
+}
+
 /* ________________________join__________________________________________ */
 
 .join {
@@ -458,7 +591,9 @@ top: 0px;
   grid-row: 1;
 }
 /* –––––page–––––– */
-
+.double_image_big{
+/* TO DO */
+}
 /* ________________________survey__________________________________________ */
 
 .survey {
@@ -566,6 +701,10 @@ footer {
 .sm_buttons a, .newsletter_button {
   display: block;
   float: left;
+}
+.sm_buttons a img{
+  width: 2em;
+  height: auto;
 }
 .newsletter_signin{
 

@@ -1,4 +1,4 @@
-<section id="double_benefits" class="double_benefits">
+<section id="double_reminder" class="double_content">
 
   <div class="for_walzer space_bottom_80p">
     <div class="stack stack_1_layer white_back">

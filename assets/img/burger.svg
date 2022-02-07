@@ -1,0 +1,13 @@
+<div class="burger_container">
+  <svg class="burger pointer " alt="Menü" >
+    <line class="eins" x1="0" y1="25" x2="46" y2="25"  />
+    <line class="eins" x1="0" y1="15" x2="46" y2="15"  />
+    <line class="eins" x1="0" y1="5" x2="46" y2="5"  />
+
+  </svg>
+  <svg class="closer pointer hidden" alt="close" >
+    <line class="eins" x1="1" y1="26" x2="26" y2="1"  />
+    <line class="zwei" x1="1" y1="2" x2="26" y2="26"  />
+  </svg>
+
+</div>

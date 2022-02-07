@@ -1,0 +1,31 @@
+Title: so läufts
+
+----
+
+Tomenu: true
+
+----
+
+Sectitle: So kann es laufen
+
+----
+
+Cont-quick-walzer:
+
+- 
+  num_quick_walzer: 1
+  title_quick_walzer: Connection
+  text_quick_walzer: >
+    Connect with a host from our list or
+    find your own companys or agencies who
+    are interessted in hosting walzers.
+     The Community will thank you for
+    that!
+- 
+  num_quick_walzer: 2
+  title_quick_walzer: Test
+  text_quick_walzer: Blaa
+
+----
+
+Cont-quick-host: 

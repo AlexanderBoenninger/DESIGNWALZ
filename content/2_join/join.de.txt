@@ -1,0 +1,162 @@
+Tomenu: true
+
+----
+
+Sectitle: Join the DESIGN WALZ
+
+----
+
+Willu:
+
+- walzerillu.json
+
+----
+
+Hillu:
+
+- host_illu.svg
+
+----
+
+Walzer:
+
+You are finished studying of any design subject or you already finished your study and want to go on a Design Walz!  
+
+If you have got further questions, look in the FAQ or send us a message.
+
+----
+
+Host: You are able to host a Walzer, get listed and maybe the next Walzer will step by in your company or agency. If you are not sure to be  well preperd for that visit, have a look in our FAQ or send us a message.
+
+----
+
+Head-benefits: Vorraussetzungen für die Teilnahme an der Design Walz
+
+----
+
+Benefits-w:
+
+- 
+  benefit: >
+    A finished study in any Design supject
+    or, at least 2 years a experience in an
+    agency
+- 
+  benefit: >
+    Portfolio for your application and your
+    aproval of your skills.
+- 
+  benefit: >
+    No resonsibilitys or things you have to
+    take care about eg. at home.
+- 
+  benefit: A self written motivation letter.
+
+----
+
+Benefits-h:
+
+- 
+  benefit: >
+    You have a company or an agency that has
+    more emploees that yourselth.
+- 
+  benefit: >
+    You are able to host a Walzer at your
+    home or you can organise a well hosting
+    of your Walzer somewhere near by.
+- 
+  benefit: >
+    You are willing to let your Walzer work
+    with you and not just letting her or him
+    make coffee.
+
+----
+
+Wimg:
+
+- kostenlos.svg
+
+----
+
+Himg:
+
+- zurzeitkostenlos.svg
+
+----
+
+W-double-image-class: 
+
+----
+
+H-double-image-class: 
+
+----
+
+Wtext: Wenn man auf die Walz geht, soll Geld eine möglichst geringe Rolle auf deiner Reise Spielen. Du musst natürlich deine Ausgaben im Blick haben und lernen dein Einkommen zu verhandeln aber von unserer Seite kommen auf die Walzer keinerlei kosten zu, um eure Last so gering wie möglich zu halten.
+
+----
+
+Htext: Das Projekt produziert natürlich Kosten. Um diese Kosten zu decken wird es in Zukunft Mitgliedschaftsgebühren geben. Lohnen wird es sich dennoch für euch. Solange wir aber noch im Aufbau sind, bleibt die Listung kostenlos für euch, um das Projekt zu unterstützen könnt ihr uns allerdings auch etwas jetzt schon finanziell unterstützen.
+
+----
+
+Howitworksimg:
+
+- how-it-works.svg
+
+----
+
+Faqimg:
+
+- faq.svg
+
+----
+
+W-double-image-class-2: 
+
+----
+
+H-double-image-class-2: 
+
+----
+
+Howitworkstext:
+
+Wait a minut,
+how does it work
+
+----
+
+Faqtext:
+
+I have some  
+FAQ!
+
+----
+
+Walzer-button: join as Walzer
+
+----
+
+Host-button: join as Host
+
+----
+
+Wcost: 
+
+----
+
+Joinbannerwalzer:
+
+You are finished studying of any design subject or you already finshed your study and want to go on a Design Walz! 
+
+If you have got futher questions, look in the FAQ or send us a message.!
+
+----
+
+Joinbannerhost: You are able to host a Walzer, get listed and maybe the next Walzer will step by in your company or agency. If you are not sure to be  well preperd for that visit, have a look in our FAQ or send us a message.
+
+----
+
+Double-image-class: 

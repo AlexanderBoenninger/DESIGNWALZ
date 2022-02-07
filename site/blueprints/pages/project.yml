@@ -1,0 +1,42 @@
+title: Projekt
+
+icon: 🆓 🆒 🆕
+
+sections:
+  content:
+    type: fields
+    fields:
+      Banner:
+        label: Banner – Kurz zur Walz
+        type: headline
+        width: 3/4
+      tomenu:
+        type: toggle
+        default: false
+        width: 1/4
+        help: max 3 Stück
+        text:
+          - "nope"
+          - "Ja, is wichtig!"
+
+      IntroText:
+        label: Intro Text
+        type: textarea
+      Projekte:
+        label: Projekte
+        type: structure
+        layout: cards
+        fields:
+          Projektname:
+            type: text
+          year:
+            type: text
+          image:
+            label: Bild
+            type: files
+          Info:
+            type: textarea
+          website:
+            type: url
+      meta:
+        type: textarea

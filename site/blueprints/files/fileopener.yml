@@ -1,0 +1,13 @@
+title: opener-File
+accept:
+  extension: svg, json
+icon: 🖼
+
+sections:
+  metadaten:
+    type: fields
+    fields:
+      alt:
+        type: text
+      caption:
+        type: text

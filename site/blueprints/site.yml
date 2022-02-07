@@ -2,7 +2,7 @@ title: Site
 
 sections:
   pages:
-    label: Öffentliche Cases
+    label: gelistet
     type: pages
     layout: cards
     status: listed
@@ -14,13 +14,16 @@ sections:
     layout: list
     status: drafts
   unpages:
-    label: Öffentliche Cases
+    label: Ungelisted
     type: pages
     layout: list
     status: unlisted
   generell:
     type: fields
     fields:
+      sitetitle:
+        label: Seiten Titel
+        type: text
       meta:
         type: textarea
         buttons: false

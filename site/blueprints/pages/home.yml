@@ -1,37 +1,107 @@
 title: Home
+accept: true
 icon: 😅
 
 sections:
   content:
     type: fields
     fields:
+      gap0:
+        type: gap
+      line0:
+        type: line
+      Opening:
+        label: Hero Images
+        type: headline
+
       opener_pic_1:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/3
       opener_pic_2:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/3
       opener_pic_3:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/3
       opener_pic_4:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/3
       opener_pic_5:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/3
+
+      gap:
+        type: gap
+      line:
+        type: line
+      mobil:
+        label: Mobil
+        type: headline
+
       mobile_opener_pic_1:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/2
       mobile_opener_pic_2:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/2
       mobile_opener_pic_3:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/2
       mobile_opener_pic_4:
-        type: text
+        type: files
+        max: 1
+        template: file-opener
         width: 1/2
       mobile_opener_pic_5:
+        type: files
+        max: 1
+        template: file-opener
+        width: 1/2
+
+      gap2:
+        type: gap
+      line2:
+        type: line
+      content:
+        label: Content
+        type: headline
+
+
+      secTitle:
+        label: Überschrift
         type: text
+      text:
+        type: textarea
+
+      gap3:
+        type: gap
+      line3:
+        type: line
+      join:
+        label: Join Banner
+        type: headline
+
+      joinbannerwalzer:
+        label: Für Walzer
+        type: textarea
+        width: 1/2
+      joinbannerhost:
+        label: Für Hosts
+        type: textarea
         width: 1/2

@@ -1,0 +1,45 @@
+Title: support
+
+----
+
+Tomenu: false
+
+----
+
+Support-button: support us
+
+----
+
+Email-support: 
+
+----
+
+Donate-button: donate!
+
+----
+
+Email-donate: 
+
+----
+
+Email-support-subject: 
+
+----
+
+Email-donate-subject: 
+
+----
+
+Email-support-body: 
+
+----
+
+Email-donate-body: 
+
+----
+
+Support-banner-text: We need people who help us bulilding the network and play aslwell execute fundraisings. Maybe you have other ideas how to help us. Interested?
+
+----
+
+Donate-banner-text: We need money to continue the work and to pay infastukture. Donations in any hight will help us.

@@ -7,11 +7,14 @@
 
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
   <?= css('assets/css/Design_Walz.css') ?>
+  <?= css(['assets/slick/slick.css', '@auto']) ?>
   <?= css('assets/css/styles.css') ?>
-  <script src="assets/js/jquery-3.3.1.min.js"> </script>
-  <script src="assets/js/rellax.min.js"> </script>
-  
 
+  <?= js(['assets/js/jquery-3.3.1.min.js', '@auto']) ?>
+  <?= js(['assets/js/rellax.min.js', '@auto']) ?>
+  <?= js(['assets/js/lottie-player.js', '@auto']) ?>
+  <?= js(['assets/js/functions.js', '@auto']) ?>
+  <?= js(['assets/slick/slick.min.js', '@auto']) ?>
 </head>
 <body>
 

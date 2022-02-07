@@ -1,0 +1,39 @@
+Title: contact
+
+----
+
+Email-info: hallo@designwalz.com
+
+----
+
+Address-1: 
+
+----
+
+Address-2: 
+
+----
+
+Social-media-insta:
+
+- instagram_w.svg
+
+----
+
+Sozial-link1: https://www.instagram.com/design_walz
+
+----
+
+Social-media-face: 
+
+----
+
+Sozial-link2: 
+
+----
+
+Tomenu: false
+
+----
+
+Emailinfo: 

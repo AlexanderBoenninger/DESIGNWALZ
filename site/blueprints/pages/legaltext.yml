@@ -1,0 +1,20 @@
+title: legal Text
+
+icon: ⚜️🗜
+
+sections:
+  content:
+    type: fields
+    fields:
+      Banner:
+        label: Rechtlich Notwendige Infos
+        type: headline
+        width: 3/4
+      tomenu:
+        type: toggle
+        default: false
+        width: 1/4
+        help: max 3 Stück
+        text:
+          - "nope"
+          - "Ja, is wichtig!"

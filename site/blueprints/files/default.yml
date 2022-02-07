@@ -1,0 +1,11 @@
+title: file
+icon: 🖼
+accept:
+  extension: svg, json
+
+sections:
+  metadaten:
+    type: fields
+    fields:
+      alt:
+        type: text

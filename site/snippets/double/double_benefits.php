@@ -1,4 +1,4 @@
-<section id="double_benefits" class="double_benefits">
+<section id="double_benefits" class="double_content">
 
   <h2 class="headline_center"><?= $page->head_benefits()->html() ?></h2>
 
@@ -21,7 +21,7 @@
      </ul>
   </div>
 
-  
+
 
 
   <!-- <div class="for_host space_bottom_80p">

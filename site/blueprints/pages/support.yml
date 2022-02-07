@@ -1,0 +1,75 @@
+title: Join
+icon: ✊
+
+sections:
+  page:
+    type: fields
+    fields:
+
+      Mail:
+        label: Mail für Support/Spenden Anfrage
+        type: headline
+        width: 3/4
+      tomenu:
+        type: toggle
+        default: false
+        width: 1/4
+        help: max 3 Stück
+        text:
+          - "nope"
+          - "Ja, is wichtig!"
+
+      support_button:
+        label: Support Button
+        type: text
+        width: 1/4
+      email_support:
+        label: Support-E-Mail Adresse
+        type: email
+        width: 1/4
+      donate_button:
+        label: Spenden Anfrage
+        type: text
+        width: 1/4
+      email_donate:
+        label: Spenden-E-Mail Adresse
+        type: email
+        width: 1/4
+
+      email_support_subject:
+        label: Default Thema Support
+        type: text
+        width: 1/2
+      email_donate_subject:
+        label: Default Thema Spende
+        type: text
+        width: 1/2
+      email_support_body:
+        label: Default Bodytext Support
+        type: text
+        width: 1/2
+      email_donate_body:
+        label: Default Bodytext Support
+        type: text
+        width: 1/2
+
+  dazwischen:
+    type: fields
+    fields:
+      gap2:
+        type: gap
+      line2:
+        type: line
+      banner:
+        label: Banner Snippet
+        type: headline
+
+  banner:
+    type: fields
+    fields:
+      support_banner_text:
+        type: textarea
+        width: 1/2
+      donate_banner_text:
+        type: textarea
+        width: 1/2

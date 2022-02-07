@@ -1,18 +1,171 @@
 title: Join
 icon: 😅
+accept: true
 
-sections:
-  content:
-    type: fields
-    fields:
-      secTitle:
-        label: Seiten Überschrift
-        type: text
-      walzer:
-        label: Für Walzer
-        type: text
-        # On the left, you will find the requirements for joining the DESIGN WALZ as a Walzer. You’ll find some benefits aswell. Don’t hasitat to ask, if there are futher questions.
-      walzer:
-        label: Für Hosts
-        type: text
-        # On the right hand side , you will find the requirements for joining the DESIGN WALZ as a Host. You’ll find some benefits aswell. Don’t hasitat to ask, if there are futher questions or thoughts that could help you and other Hosts.
+columns:
+  - width: 1/1
+    sections:
+      head:
+        type: fields
+        fields:
+          page:
+            label: Page
+            type: headline
+            headlinejump: headlinejump
+            width: 3/4
+          tomenu:
+            type: toggle
+            default: false
+            width: 1/4
+            help: max 3 Stück
+            text:
+              - "nope"
+              - "Ja, is wichtig!"
+
+          secTitle:
+            label: Seite Überschrift
+            type: text
+          willu:
+            label: Illu svg für Walzer
+            type: files
+            translate: false
+            max: 1
+            layout: cards
+            ratio: 1/1
+            back: white
+            template: fileopener
+            width: 1/2
+          hillu:
+            label: Illu svg für Walzer
+            type: files
+            translate: false
+            max: 1
+            layout: cards
+            ratio: 1/1
+            back: white
+            template: fileopener
+            width: 1/2
+          walzer:
+            label: Für Walzer
+            type: textarea
+            width: 1/2
+          host:
+            label: For Hosts
+            type: textarea
+            width: 1/2
+          line1:
+            type: line
+          requ:
+            label: Vorraussetzungen
+            type: headline
+          head_benefits:
+            type: text
+          benefits_w:
+            label: Vorraussetzungen für Walzer
+            type: structure
+            width: 1/2
+            fields:
+              benefit:
+                type: textarea
+          benefits_h:
+            label: Vorraussetzungen für Hosts
+            type: structure
+            width: 1/2
+            fields:
+              benefit:
+                type: textarea
+
+          line2:
+            type: line
+          cost:
+            label: Kosten
+            type: headline
+          wimg:
+            label: Illu svg für Walzer
+            type: files
+            translate: false
+            max: 1
+            width: 1/2
+          himg:
+            label: Illu svg für Host
+            type: files
+            translate: false
+            max: 1
+            width: 1/2
+          w_double_image_class:
+            label: Extra Größe (klasse)
+            type: text
+            help: nichts=normal double_image_big=groß
+            width: 1/2
+          h_double_image_class:
+            label: Extra Größe (klasse)
+            type: text
+            help: nichts=normal double_image_big=groß
+            width: 1/2
+          wtext:
+            type: textarea
+            label: Für Walzer
+            width: 1/2
+          htext:
+            type: textarea
+            label: Für Hosts
+            width: 1/2
+
+          gap0:
+            type: gap
+          line2:
+            type: line
+          howitworksimg:
+            label: Bild zu einer Subpage
+            type: files
+            translate: false
+            max: 1
+            width: 1/2
+          faqimg:
+            label: Bild zu einer Subpage
+            type: files
+            translate: false
+            max: 1
+            width: 1/2
+          w_double_image_class_2:
+            label: Extra Größe (klasse)
+            type: text
+            help: nichts=normal double_image_big=groß
+            width: 1/2
+          h_double_image_class_2:
+            label: Extra Größe (klasse)
+            type: text
+            help: nichts=normal double_image_big=groß
+            width: 1/2
+          howitworkstext:
+            type: textarea
+            label: Text zu einer Subpage
+            width: 1/2
+          faqtext:
+            type: textarea
+            label: Text zu einer Subpage
+            width: 1/2
+
+  - width: 1/1
+    sections:
+      dazwischen:
+        type: fields
+        fields:
+          gap1:
+            type: gap
+          line3:
+            type: line
+          banner:
+            label: Join Banner Snippet
+            type: headline
+      banner:
+        type: fields
+        fields:
+          walzer_button:
+            label: Walzer Button
+            type: text
+            width: 1/2
+          host_button:
+            label: Host Button
+            type: text
+            width: 1/2

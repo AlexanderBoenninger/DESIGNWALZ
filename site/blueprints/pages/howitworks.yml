@@ -1,0 +1,47 @@
+title: How it works
+icon: 🚀
+columns:
+  - width: 1/1
+    sections:
+      head:
+        type: fields
+        fields:
+          page:
+            label: Page
+            type: headline
+            headlinejump: headlinejump
+            width: 3/4
+          tomenu:
+            type: toggle
+            default: false
+            width: 1/4
+            help: max 3 Stück
+            text:
+              - "nope"
+              - "Ja, is wichtig!"
+
+          secTitle:
+            label: Seite Überschrift
+            type: text
+          cont_quick_walzer:
+            label: Zusammen gefaltetes
+            type: structure
+            width: 1/2
+            fields:
+              num_quick_walzer:
+                type: number
+              title_quick_walzer:
+                type: text
+              text_quick_walzer:
+                type: textarea
+          cont_quick_host:
+            label: Zusammen gefaltetes
+            type: structure
+            width: 1/2
+            fields:
+              num_quick_host:
+                type: number
+              title_quick_host:
+                type: text
+              text_quick_host:
+                type: textarea

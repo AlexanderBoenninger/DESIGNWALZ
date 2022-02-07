@@ -1,0 +1,63 @@
+title: Contact
+icon: 📡
+
+sections:
+  page:
+    type: fields
+    fields:
+      Mail:
+        label: E-Mail Kontakt
+        type: headline
+        width: 3/4
+      tomenu:
+        type: toggle
+        default: false
+        width: 1/4
+        help: max 3 Stück
+        text:
+          - "nope"
+          - "Ja, is wichtig!"
+
+      emailinfo:
+        type: email
+
+      gap2:
+        type: gap
+      line2:
+        type: line
+      Adresse:
+        label: Anschriften
+        type: headline
+      address_1:
+        label: Büro 1
+        type: textarea
+      address_2:
+        label: Büro 2
+        type: textarea
+
+      gap3:
+        type: gap
+      line3:
+        type: line
+      SM:
+        label: Soziale Medien
+        type: headline
+
+      social_media_insta:
+        label: SM Logo
+        type: files
+        max: 1
+        width: 1/3
+      sozial_link1:
+        label: SM Link
+        type: url
+        width: 2/3
+      social_media_face:
+        label: SM Logo
+        type: files
+        max: 1
+        width: 1/3
+      sozial_link2:
+        label: SM Link
+        type: url
+        width: 2/3
