@@ -14,9 +14,12 @@
  <div class="footer_col_2 footer_socialmedia">
    <h2 class="white_typo">social media</h2>
     <div class="sm_buttons space_top_20p">
-      <a href="<?= $contact->sozial_link1()?>" target="_blank"><img src="<?= $contact->social_media_insta()->tofile()->url()?>" alt="Instagram"> </a>
-      <a class="space_left_20p" href="<?= $contact->sozial_link2()?>" target="_blank"><img src="<?= $contact->social_media_face()->tofile()->url()?>" alt="Facebook"> </a>
-
+      <?php if($contact->sozial_link1()->isNotEmpty()): ?>
+        <a href="<?= $contact->sozial_link1()?>" target="_blank"><img src="<?= $contact->social_media_insta()->tofile()->url()?>" alt="Instagram"> </a>
+      <?php endif ?>
+      <?php if($contact->sozial_link2()->isNotEmpty()): ?>
+        <a class="space_left_20p" href="<?= $contact->sozial_link2()?>" target="_blank"><img src="<?= $contact->social_media_face()->tofile()->url()?>" alt="Facebook"> </a>
+      <?php endif ?>
     </div>
 
  </div>

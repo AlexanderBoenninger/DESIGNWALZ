@@ -2,15 +2,28 @@ Title: contact
 
 ----
 
-Email-info: hallo@designwalz.com
+Tomenu: false
 
 ----
 
-Address-1: 
+Emailinfo: 
 
 ----
 
-Address-2: 
+Address-1:
+
+Design Walz c/o Kaiping
+VorOrt 
+ddsdsd
+93923 Dessau
+
+----
+
+Address-2:
+
+Design Walz c/o Bönninger
+Dittrichring 17
+04109 Leipzig
 
 ----
 
@@ -24,7 +37,9 @@ Sozial-link1: https://www.instagram.com/design_walz
 
 ----
 
-Social-media-face: 
+Social-media-face:
+
+- facebook_w.svg
 
 ----
 
@@ -32,8 +47,4 @@ Sozial-link2:
 
 ----
 
-Tomenu: false
-
-----
-
-Emailinfo: 
+Email-info: hallo@designwalz.com

@@ -84,3 +84,4 @@ $(window).on('load', function() {
 $(window).on('resize', function() {
   sizeing(document)
 });
+});
