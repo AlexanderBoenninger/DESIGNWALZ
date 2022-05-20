@@ -2,14 +2,8 @@
 
 <?php snippet('opener') ?>
 
-<section id="Project" class="project project_background">
-  <div class="container project_content content space_bottom_80p">
-    <h2><?= $page->secTitle()->html() ?></h2>
-     <div class="big_brot_container">
-       <?= $page->text()->kt() ?>
-     </div>
-  </div>
-</section>
+
+<?php snippet('teaser-text') ?>
 <?php snippet('join-banner') ?>
 <?php snippet('support-banner') ?>
 <?php snippet('footer') ?>

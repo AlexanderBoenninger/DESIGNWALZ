@@ -42,8 +42,8 @@
   <?php if($legal = page('impressum')): ?>
       <a class="footer_link blass_typo footer_col_1 white_typo" href="<?= $legal->url() ?>">impressum</a>
   <?php endif ?>
-  <?php if($p = page('datenschutzerklaerung')): ?>
-      <a class="footer_link blass_typo footer_col_2" href="<?= $p->url() ?>">Datenschutz</a>
+  <?php if($data = page('datenschutzerklaerung')): ?>
+      <a class="footer_link blass_typo footer_col_2" href="<?= $data->url() ?>">Datenschutz</a>
   <?php endif ?>
   </div>
     <a class="copyright badass_small white_typo blass_typo space_top_20p" href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->sitetitle() ?></a>
@@ -51,5 +51,10 @@
   </footer>
 
 </body>
-
+<?= js(['assets/js/jquery-3.3.1.min.js', '@auto']) ?>
+<?= js(['assets/js/vendor/what-input.js', '@auto']) ?>
+<?= js(['assets/js/vendor/foundation.min.js', '@auto']) ?>
+<?= js(['assets/js/rellax.min.js', '@auto']) ?>
+<?= js(['assets/js/lottie-player.js', '@auto']) ?>
+<?= js(['assets/js/app.js', '@auto']) ?>
 </html>
