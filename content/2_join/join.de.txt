@@ -14,7 +14,7 @@ Willu:
 
 Hillu:
 
-- host_illu.svg
+- hostillu.json
 
 ----
 
@@ -85,7 +85,7 @@ Himg:
 
 ----
 
-W-double-image-class: 
+W-double-image-class: img-center
 
 ----
 
@@ -113,7 +113,7 @@ Faqimg:
 
 ----
 
-W-double-image-class-2: 
+W-double-image-class-2: img-center
 
 ----
 
@@ -124,7 +124,7 @@ H-double-image-class-2:
 Howitworkstext:
 
 Wait a minut,
-how does it work
+(link: /how-it-works text: how does it work)
 
 ----
 
@@ -132,18 +132,6 @@ Faqtext:
 
 I have some  
 FAQ!
-
-----
-
-Walzer-button: join as Walzer
-
-----
-
-Host-button: join as Host
-
-----
-
-Wcost: 
 
 ----
 
@@ -156,6 +144,18 @@ If you have got futher questions, look in the FAQ or send us a message.!
 ----
 
 Joinbannerhost: You are able to host a Walzer, get listed and maybe the next Walzer will step by in your company or agency. If you are not sure to be  well preperd for that visit, have a look in our FAQ or send us a message.
+
+----
+
+Walzer-button: Jetzt als Walzer:in melden
+
+----
+
+Host-button: Jetzt Host werden
+
+----
+
+Wcost: 
 
 ----
 

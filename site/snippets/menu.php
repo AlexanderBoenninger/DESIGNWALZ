@@ -3,7 +3,7 @@
   <div id="hole_menu" class="grid-x hidden">
     <div class="first_menu">
       <?php foreach($subs as $sub): ?>
-        <div <?php e($sub->isOpen(), 'class="active"') ?> class="">
+        <div <?php e($sub->isOpen(), 'class="active"') ?>>
           <a class="first_menu_link" href="<?= $sub->url() ?>"><?= $sub->title()->html() ?></a>
         </div>
       <?php endforeach ?>
@@ -48,11 +48,11 @@
   </div>
 
   <div class="burger_container">
-    <div class="closer hidden">
+    <div class="closer pointer hidden">
       <hr>
       <hr>
     </div>
-    <div class="burger">
+    <div class="burger pointer">
       <hr>
       <hr>
       <hr>

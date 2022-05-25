@@ -17,5 +17,51 @@ sections:
         text:
           - "nope"
           - "Ja, is wichtig!"
+
+      gap0:
+        type: gap
+      line0:
+        type: line
+      head_0:
+        label: About Text
+        type: headline
+      secTitle:
+        type: text
       text:
         type: textarea
+
+      gap1:
+        type: gap
+      line1:
+        type: line
+      head_1:
+        label: team
+        type: headline
+      team:
+        type: structure
+        fields:
+          pic:
+            type: files
+            multiple: false
+            layout: cards
+            width: 1/2
+          stack_class:
+            type: toggle
+            label: Stack links/rechts
+            width: 1/2
+            text:
+              - "links"
+              - "rechts"
+          zitat:
+            type: textarea
+          name:
+            type: text
+          job:
+            type: text
+          web:
+            type: structure
+            fields:
+              weblink:
+                type: text
+          email:
+            type: email

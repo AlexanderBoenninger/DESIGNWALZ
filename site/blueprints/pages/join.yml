@@ -161,6 +161,12 @@ columns:
       banner:
         type: fields
         fields:
+          joinbannerwalzer:
+            type: textarea
+            width: 1/2
+          joinbannerhost:
+            type: textarea
+            width: 1/2
           walzer_button:
             label: Walzer Button
             type: text

@@ -1,7 +1,7 @@
 title: file
 icon: 🖼
 accept:
-  extension: svg, json
+  extension: jpg, svg, json
 
 sections:
   metadaten:

@@ -6,7 +6,7 @@ $img_2 = $page->wimg_2();
 $img_3 = $page->wimg_3();
 
 $subs = $site->pages()->listed();
-
+$crumbs = $site->breadcrumb();
 $opener = $pages->find('home');
 $join = $pages->find('join');
 $survey = $pages->find('survey');
@@ -27,7 +27,8 @@ $newsl = $pages->find('newsletter');
     'support' => $support,
     'contact' => $contact,
     'newsl' => $newsl,
-    'subs' => $subs
+    'subs' => $subs,
+    'crumbs' => $crumbs,
   ];
 };
 Kirby::plugin('my/plugin', [

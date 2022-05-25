@@ -34,6 +34,12 @@ columns:
                 type: text
               text_quick_walzer:
                 type: textarea
+              is_active_walzer:
+                type: toggle
+                default: false
+                text:
+                  - "nope"
+                  - "Ja"
           cont_quick_host:
             label: Zusammen gefaltetes
             type: structure
@@ -45,3 +51,66 @@ columns:
                 type: text
               text_quick_host:
                 type: textarea
+              is_active_host:
+                type: toggle
+                default: false
+                text:
+                  - "nope"
+                  - "Ja"
+          gap0:
+            type: gap
+          line0:
+            type: line
+          head0:
+            label: Join Banner
+            type: headline
+          joinbannerwalzer:
+            type: textarea
+            width: 1/2
+          joinbannerhost:
+            type: textarea
+            width: 1/2
+          walzer_button:
+            type: text
+            width: 1/2
+          host_button:
+            type: text
+            width: 1/2
+
+          gap1:
+            type: gap
+          line1:
+            type: line
+          head1:
+            label: Benefits
+            type: headline
+          head_benefits:
+            type: text
+          benefits_w:
+            label: Liste der Benefits
+            type: structure
+            width: 1/2
+            fields:
+              benefit:
+                type: text
+          benefits_h:
+            label: Liste der Benefits
+            type: structure
+            width: 1/2
+            fields:
+              benefit:
+                type: text
+
+          gap2:
+            type: gap
+          line2:
+            type: line
+          head2:
+            label: Reminder
+            type: headline
+          reminder_w:
+            type: textarea
+            width: 1/2
+          reminder_h:
+            type: textarea
+            width: 1/2

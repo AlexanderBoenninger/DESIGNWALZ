@@ -44,7 +44,3 @@ Social-media-face:
 ----
 
 Sozial-link2: 
-
-----
-
-Email-info: hallo@designwalz.com
