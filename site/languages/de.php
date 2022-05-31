@@ -9,6 +9,7 @@ return [
   'name' => 'de',
   'translations' => [
     'more' => 'mehr',
+    'more-details' => 'mehr Details',
     'less' => 'weniger',
     'year' => 'Jahr',
     'title' => 'Titel',

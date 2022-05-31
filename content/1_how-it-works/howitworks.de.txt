@@ -78,6 +78,14 @@ Cont-quick-host:
 
 ----
 
+Howto-walzer-expand: [{"content":{"illu":["walzer-check.svg"],"number":1,"headline":"Als Walzer registieren","text":"Make sure to register, so that we can support you properly by preparing your Walz."},"id":"496ee47c-24ad-4882-9a1b-30940595c8a5","isHidden":false,"type":"howto_normal_step"},{"content":{"illu":["walzer-teamup.svg"],"number":2,"headline":"Try to find a second Walzer","text":"It is more fun to go on a Walz with a friend of yours. You don\u2019t have to share all your steps! But it is nice to mee someone how is in the same Situation. \nBut this ist not nessesary! It is just fine, if you want to go by yourself"},"id":"686aa865-ae28-4cd0-af8e-e9babbf44e0c","isHidden":false,"type":"howto_normal_step"},{"content":{"illu":["rules.svg"],"number":3,"headline":"Set your rules","text":"and prepair your application. It is helpfull to have your application online or at least portable."},"id":"ff554513-4e9c-48be-b7f7-9bec4926eccf","isHidden":false,"type":"howto_normal_step"},{"content":{"illu":["repeat.svg"],"number":4,"number2":5,"headline":"","text":"Arrive, \u2028\nwork, learn, \n\u2028give, take, \n\u2028move on, repeat."},"id":"45f5bce5-776a-4ea8-a9f7-2f1819bb3683","isHidden":false,"type":"howto_repeating_step"},{"content":{"illu":["rules.svg"],"number":6,"headline":"Irgendwas","text":"Your Walz is done. Make sure to send us a dokumentation of your Walz. We will put it on this website. We still need your help as you might have needed it on your Walz. Try to help us to grow the network and help outhers on thair Walz. Let us create a reseoneble community!"},"id":"46a6cda6-5138-4d55-a267-bc6c3258ee62","isHidden":false,"type":"howto_normal_step"}]
+
+----
+
+Howto-host-expand: [{"content":{"illu":["host.svg"],"number":1,"headline":"Register as a Host","text":"Become a member of the Design Walz Society. We will List you for everyone how wants to go on a Walz. Let us know what you can offer a Walzer. Shelter, Food\u2026\nIf you have a Guest room in your privat home or something like that, you got the possibility to get to konw your Walzer even more."},"id":"210d9cbb-931f-48c8-a4a8-25a145e6b850","isHidden":false,"type":"howto_normal_step"},{"content":{"illu":["leagal_stuff.svg"],"number":2,"headline":"Leagal issues","text":"Check legal issues with your accounted."},"id":"5e696f36-2927-4541-afa3-fb3052723a4a","isHidden":false,"type":"howto_normal_step"}]
+
+----
+
 Joinbannerwalzer:
 
 You are finished studying of any design subject, or you already finished your study and want to go on a Design Walz!

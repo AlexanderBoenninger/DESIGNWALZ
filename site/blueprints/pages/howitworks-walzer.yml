@@ -1,0 +1,26 @@
+title: How it works for walzer
+icon: 🚀
+columns:
+  - width: 1/1
+    sections:
+      head:
+        type: fields
+        fields:
+          page:
+            label: Page
+            type: headline
+            headlinejump: headlinejump
+            width: 3/4
+          tomenu:
+            type: toggle
+            default: false
+            width: 1/4
+            help: max 3 Stück
+            text:
+              - "nope"
+              - "Ja, is wichtig!"
+
+          secTitle:
+            label: Seite Überschrift
+            type: text
+          

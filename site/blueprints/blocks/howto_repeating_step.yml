@@ -1,0 +1,20 @@
+name: Repeating Step
+icon: server
+fields:
+  illu:
+    label: Nice illu
+    type: files
+    multiple: true
+  number:
+    type: number
+    required: true
+    min: 1
+  number2:
+    type: number
+    required: true
+    min: 1
+  headline:
+    type: text
+    maxlength: 30
+  text:
+    type: textarea

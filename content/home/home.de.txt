@@ -2,43 +2,63 @@ Title: start
 
 ----
 
-Opener-pic-1: - sticker_1.svg
+Opener-pic-1:
+
+- sticker_1.svg
 
 ----
 
-Opener-pic-2: - sticker_2.svg
+Opener-pic-2:
+
+- sticker_2.svg
 
 ----
 
-Opener-pic-3: - sticker_3.svg
+Opener-pic-3:
+
+- sticker_3.svg
 
 ----
 
-Opener-pic-4: - sticker_4.svg
+Opener-pic-4:
+
+- sticker_4.svg
 
 ----
 
-Opener-pic-5: - sticker_5.svg
+Opener-pic-5:
+
+- sticker_5.svg
 
 ----
 
-Mobile-opener-pic-1: - mobile_sticker_1.svg
+Mobile-opener-pic-1:
+
+- mobile_sticker_1.svg
 
 ----
 
-Mobile-opener-pic-2: - mobile_sticker_2.svg
+Mobile-opener-pic-2:
+
+- mobile_sticker_2.svg
 
 ----
 
-Mobile-opener-pic-3: - mobile_sticker_3.svg
+Mobile-opener-pic-3:
+
+- mobile_sticker_3.svg
 
 ----
 
-Mobile-opener-pic-4: - mobile_sticker_4.svg
+Mobile-opener-pic-4:
+
+- mobile_sticker_4.svg
 
 ----
 
-Mobile-opener-pic-5: - mobile_sticker_5.svg
+Mobile-opener-pic-5:
+
+- mobile_sticker_5.svg
 
 ----
 
@@ -65,3 +85,11 @@ If you have got further questions, look in the FAQ or send us a message!
 ----
 
 Joinbannerhost: You are able to host a Walzer, get listed, and maybe the next Walzer will step by in your company or agency. If you are not sure to be well-prepared for that visit, have a look in our FAQ or send us a message.
+
+----
+
+Walzer-button: Wie du Walzer:in wirst
+
+----
+
+Host-button: Wie ihr Host werdet

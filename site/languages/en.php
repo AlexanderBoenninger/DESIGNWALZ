@@ -10,6 +10,7 @@ return [
   'url' => 'en',
   'translations' => [
     'more' => 'more',
+    'more-details' => 'more details',
     'less' => 'less',
     'year' => 'Year',
     'title' => 'Title',

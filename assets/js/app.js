@@ -26,11 +26,15 @@ $(document).ready(function() {
     });
     // ––––––––––––mobile_double Seiten––––––––––––
       $(".for_walzer_switch").click( function(){
+        $(this).find(".link").addClass("link-active");
+        $(".for_host_switch").find(".link").removeClass("link-active");
         $(".for_walzer").removeClass("hidden");
         $(".for_host").addClass("hidden");
         $(".host_back").addClass("hidden");
       });
       $(".for_host_switch").click( function(){
+        $(this).find(".link").addClass("link-active");
+        $(".for_walzer_switch").find(".link").removeClass("link-active");
         $(".for_walzer").addClass("hidden");
         $(".for_host").removeClass("hidden");
         $(".host_back").removeClass("hidden");
@@ -38,6 +42,7 @@ $(document).ready(function() {
 
     // ––––––––––––Linie nach Zahl––––––––––––
     $( "<hr>" ).insertAfter( ".quick_step_numb:not(:last-of-type)" );
+    // $( "<div class='vertikal-border'>" ).insertAfter( ".expand_step_numb" );
 
     if (mq_0.matches) {
       $(".medium_remove_hide").addClass("hidden")
@@ -55,12 +60,40 @@ function sizeing(doc) {
   }
 };
 
+
+$(".howto_w").click(function(){
+  $(this).parents().find(".quick_how_walzer").toggleClass("hidden");
+    $(".howto_h").parents().find(".quick_how_host").removeClass("hidden");
+  $(this).find("svg").toggleClass("arrow_up");
+  $(this).find(".more-dets-text").fadeOut(function () {
+    $(".more-dets-text").text(($(".more-dets-text").text() == 'more details') ? 'less details' : 'more details').fadeIn();
+  });
+  setTimeout(function () {
+    sizeing(document);
+  },
+    100);
+});
+
+$(".howto_h").click(function(){
+  $(this).parents().find(".quick_how_host").toggleClass("hidden");
+  $(".howto_w").parents().find(".quick_how_walzer").removeClass("hidden");
+  $(this).find("svg").toggleClass("arrow_up");
+  $(this).find(".more-dets-text").fadeOut(function () {
+    $(".more-dets-text").text(($(".more-dets-text").text() == 'more details') ? 'less details' : 'more details').fadeIn();
+  });
+  setTimeout(function () {
+    sizeing(document);
+  },
+    100);
+});
+
 $(".quick_step_numb, .for_host_switch, .for_walzer_switch").click(function () {
   setTimeout(function () {
     sizeing(document);
   },
     100);
 });
+
 
 $(window).on('load', function() {
   sizeing(document);

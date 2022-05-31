@@ -57,6 +57,27 @@ columns:
                 text:
                   - "nope"
                   - "Ja"
+          howto_walzer_expand:
+            label: How to Expend Walzer
+            type: blocks
+            width: 1/2
+            fieldsets:
+              walzer:
+                type: group
+                fieldsets:
+                  - howto_normal_step
+                  - howto_repeating_step
+
+          howto_host_expand:
+            label: How to Expend Host
+            type: blocks
+            width: 1/2
+            fieldsets:
+              host:
+                type: group
+                fieldsets:
+                  - howto_normal_step
+                  - howto_repeating_step
           gap0:
             type: gap
           line0:

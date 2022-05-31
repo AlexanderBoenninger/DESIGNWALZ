@@ -1,6 +1,6 @@
-<section class="double_content benefit grid-x grid-container">
+<section class="double_content benefit grid-x grid-container space_top_40p">
 
-  <h2 class="headline_center small-10 small-offset-1 space_top_20p space_bottom_20p"><?= $page->head_benefits()->html() ?></h2>
+  <h2 class="headline_center small-10 small-offset-1 space_bottom_20p"><?= $page->head_benefits()->html() ?></h2>
 
   <div class="for_walzer small-10 small-offset-1 medium-4 space_bottom_20p">
      <ul class="">
@@ -20,12 +20,5 @@
        <?php endforeach ?>
      </ul>
   </div>
-
-
-
-
-  <!-- <div class="for_host space_bottom_80p">
-     <p class="normal_brot"> <?= $page->page_entry_h()->ktr() ?></p>
-  </div> -->
 
 </section>

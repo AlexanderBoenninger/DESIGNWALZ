@@ -105,3 +105,11 @@ sections:
         label: Für Hosts
         type: textarea
         width: 1/2
+      walzer_button:
+        label: Walzer Button
+        type: text
+        width: 1/2
+      host_button:
+        label: Host Button
+        type: text
+        width: 1/2
