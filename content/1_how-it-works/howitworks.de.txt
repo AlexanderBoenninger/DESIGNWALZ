@@ -20,12 +20,151 @@ Cont-quick-walzer:
     find your own companys or agencies who
     are interessted in hosting walzers.
      The Community will thank you for
+    that! The Community will thank you for
     that!
+  is_active_walzer: 'true'
 - 
   num_quick_walzer: 2
   title_quick_walzer: Test
-  text_quick_walzer: Blaa
+  text_quick_walzer: >
+    Blaa Connect with a host from our list
+    or find your own companys or agencies
+    who are interessted in hosting walzers.
+     The Community will thank you for
+    that!
+  is_active_walzer: 'false'
+- 
+  num_quick_walzer: 3
+  title_quick_walzer: Test 3
+  text_quick_walzer: >
+    $ Connect with a host from our list or
+    find your own companys or agencies who
+    are interessted in hosting walzers.
+     The Community will thank you for
+    that!
+  is_active_walzer: 'false'
 
 ----
 
-Cont-quick-host: 
+Cont-quick-host:
+
+- 
+  num_quick_host: 1
+  title_quick_host: Connection
+  text_quick_host: >
+    Connect with a host from our list or
+    find your own companys or agencies who
+    are interessted in hosting walzers.
+     The Community will thank you for
+    that!
+  is_active_host: 'true'
+- 
+  num_quick_host: 2
+  title_quick_host: Gibt es offen Projekte
+  text_quick_host: 'Vielleicht könnte es frischen Input bei bestimmten Projekten gebrauchen. Sprechen Sie mit Ihren Kolleg:innen und schauen Sie wo  eventuell Kapazitäten gebraucht werden.'
+  is_active_host: 'false'
+- 
+  num_quick_host: 3
+  title_quick_host: 'Verhandeln '
+  text_quick_host: >
+    Was brauchen die Walzer:innen in deiner
+    Stadt – Fahrrad, ÖPV-Ticket etc.
+  is_active_host: 'false'
+- 
+  num_quick_host: 4
+  title_quick_host: Done
+  text_quick_host: Geschafft
+  is_active_host: 'false'
+
+----
+
+Howto-walzer-expand: [{"content":{"illu":["walzer-check.svg"],"number":1,"headline":"Als Walzer registieren","text":"Make sure to register, so that we can support you properly by preparing your Walz."},"id":"496ee47c-24ad-4882-9a1b-30940595c8a5","isHidden":false,"type":"howto_normal_step"},{"content":{"illu":["walzer-teamup.svg"],"number":2,"headline":"Try to find a second Walzer","text":"It is more fun to go on a Walz with a friend of yours. You don\u2019t have to share all your steps! But it is nice to mee someone how is in the same Situation. \nBut this ist not nessesary! It is just fine, if you want to go by yourself"},"id":"686aa865-ae28-4cd0-af8e-e9babbf44e0c","isHidden":false,"type":"howto_normal_step"},{"content":{"illu":["rules.svg"],"number":3,"headline":"Set your rules","text":"and prepair your application. It is helpfull to have your application online or at least portable."},"id":"ff554513-4e9c-48be-b7f7-9bec4926eccf","isHidden":false,"type":"howto_normal_step"},{"content":{"illu":["repeat.svg"],"number":4,"number2":5,"headline":"","text":"Arrive, \u2028\nwork, learn, \n\u2028give, take, \n\u2028move on, repeat."},"id":"45f5bce5-776a-4ea8-a9f7-2f1819bb3683","isHidden":false,"type":"howto_repeating_step"},{"content":{"illu":["rules.svg"],"number":6,"headline":"Irgendwas","text":"Your Walz is done. Make sure to send us a dokumentation of your Walz. We will put it on this website. We still need your help as you might have needed it on your Walz. Try to help us to grow the network and help outhers on thair Walz. Let us create a reseoneble community!"},"id":"46a6cda6-5138-4d55-a267-bc6c3258ee62","isHidden":false,"type":"howto_normal_step"}]
+
+----
+
+Howto-host-expand: [{"content":{"illu":["host.svg"],"number":1,"headline":"Register as a Host","text":"Become a member of the Design Walz Society. We will List you for everyone how wants to go on a Walz. Let us know what you can offer a Walzer. Shelter, Food\u2026\nIf you have a Guest room in your privat home or something like that, you got the possibility to get to konw your Walzer even more."},"id":"210d9cbb-931f-48c8-a4a8-25a145e6b850","isHidden":false,"type":"howto_normal_step"},{"content":{"illu":["leagal_stuff.svg"],"number":2,"headline":"Leagal issues","text":"Check legal issues with your accounted."},"id":"5e696f36-2927-4541-afa3-fb3052723a4a","isHidden":false,"type":"howto_normal_step"}]
+
+----
+
+Joinbannerwalzer:
+
+You are finished studying of any design subject, or you already finished your study and want to go on a Design Walz!
+
+If you have got further questions, look in the FAQ or send us a message!
+
+----
+
+Joinbannerhost: You are able to host a Walzer, get listed, and maybe the next Walzer will step by in your company or agency. If you are not sure to be well-prepared for that visit, have a look in our FAQ or send us a message.
+
+----
+
+Walzer-button: jetzt Walzer:in werdern
+
+----
+
+Host-button: jetzt Host werden
+
+----
+
+Head-benefits: Benefits and a little reminder
+
+----
+
+Benefits-w:
+
+- 
+  benefit: >
+    Walzers get more experience in a shorter
+    time
+- 
+  benefit: Travel differnet countries
+- 
+  benefit: >
+    Collaboration with different people,
+    sharing knowledge
+- 
+  benefit: >
+    Discovering all fields of interest –
+    generalism
+- 
+  benefit: >
+    Focus on design, not income – basic
+    needs are provided getting
+- 
+  benefit: >
+    Knowing colleags on a more personal
+    level by spending more time together
+
+----
+
+Benefits-h:
+
+- 
+  benefit: >
+    Collaborating with different People from
+    different Backgrounds
+- 
+  benefit: fluctuation of colleges/walzers
+- 
+  benefit: >
+    highly motivated people due to free
+    choice of work inviroment
+- 
+  benefit: curiosity and expanding the comfort Zone
+- 
+  benefit: 'low-monetary pay through food & lodging plus what you negotiated'
+- 
+  benefit: >
+    getting to know people personally by
+    letting them into their lives
+
+----
+
+Reminder-w:
+
+A Design Walz is a serious way of further education. Do not take a walz lighthearted and use it s a gap filler. Beeing a walzer means to be fully committed to the whole journey and to treat every person and every task with respect.
+If you want to do it,  do it right!
+
+----
+
+Reminder-h: A walz is a serious way of further education – not only for the Walzer but also for yourself. Trust one another and see the benifit in people that are different to you. Be open to learn from them and teach them equally. They are not cheap workers, they are valuable collaboration partners and so are you!

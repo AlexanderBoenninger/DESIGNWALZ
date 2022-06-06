@@ -10,19 +10,18 @@ return [
   'url' => 'en',
   'translations' => [
     'more' => 'more',
+    'more-details' => 'more details',
     'less' => 'less',
-    'year' => 'Year',
     'title' => 'Title',
     'tags' => 'Tags',
-    'descrip' => 'Descrip&shy;tion',
-    'projects' => 'Projects',
     'link' => 'Link',
-    'awards' => 'Awards',
-    'scope' => 'Scope',
-    'credits' => 'Credits',
     'social' => 'Social media',
     'forwalzer' => 'for walzer',
     'forhosts' => 'for hosts',
-    'signin' => 'sign in'
+    'signin' => 'sign in',
+    'name' => 'name',
+    'surname' => 'surname',
+    'next' => 'next',
+    'send' => 'send',
   ]
 ];

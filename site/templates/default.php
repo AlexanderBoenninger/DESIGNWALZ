@@ -1,1 +1,2 @@
-<?php go('error') ?>
+<?php snippet('header') ?>
+<?php snippet('footer') ?>

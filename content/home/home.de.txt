@@ -1,3 +1,7 @@
+Title: start
+
+----
+
 Opener-pic-1:
 
 - sticker_1.svg
@@ -74,10 +78,18 @@ We adapted the idea of the Walz from an old craftsman tradition and want to impl
 
 Joinbannerwalzer:
 
-You are finished studying of any design subject or you already finshed your study and want to go on a Design Walz!
+You are finished studying of any design subject, or you already finished your study and want to go on a Design Walz!
 
-If you have got futher questions, look in the FAQ or send us a message.!
+If you have got further questions, look in the FAQ or send us a message!
 
 ----
 
-Joinbannerhost: You are able to host a Walzer, get listed, and maybe the next Walzer will step by in your company or agency. If you are not sure to be  well prepered for that visit, have a look in our FAQ or send us a message.
+Joinbannerhost: You are able to host a Walzer, get listed, and maybe the next Walzer will step by in your company or agency. If you are not sure to be well-prepared for that visit, have a look in our FAQ or send us a message.
+
+----
+
+Walzer-button: Wie du Walzer:in wirst
+
+----
+
+Host-button: Wie ihr Host werdet

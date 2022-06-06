@@ -761,9 +761,9 @@ footer {
     width: 100px;
   }
 
-  .stack_2_r, .stack_2_l {
+  /* .stack_2_r, .stack_2_l {
     height: 155px;
-  }
+  } */
 }
 
 @media only screen and (max-width:510px) {

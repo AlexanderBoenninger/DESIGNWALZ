@@ -1,4 +1,4 @@
-<section id="Opener" class="opener">
+<section id="opener" class="opener ">
     <div class="opener_pic space_top_20p space_bottom_40p">
       <img class="opener_pic_1 rellax" data-rellax-speed="0" src="<?= $page->opener_pic_1()->tofile()->url()?>" alt="">
       <img class="opener_pic_2 rellax" data-rellax-speed="-0.5" src="<?= $page->opener_pic_2()->tofile()->url()?>" alt="">

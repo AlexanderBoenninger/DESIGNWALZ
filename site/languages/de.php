@@ -9,19 +9,18 @@ return [
   'name' => 'de',
   'translations' => [
     'more' => 'mehr',
-    'less' => 'weniger',
+    'more-details' => 'mehr Details',
     'year' => 'Jahr',
     'title' => 'Titel',
     'tags' => 'Tags',
-    'descrip' => 'Beschrei&shy;bung',
-    'projects' => 'Arbeiten',
     'link' => 'Link',
-    'awards' => 'Awards',
-    'scope' => 'Umfang',
-    'credits' => 'Credits',
     'social' => 'Soziale Medien',
     'forwalzer' => 'für walzer:innen',
     'forhosts' => 'für hosts',
-    'signin' => 'eintragen'
+    'signin' => 'eintragen',
+    'name' => 'Vorname',
+    'surname' => 'Nachname',
+    'next' => 'weiter',
+    'send' => 'senden',
   ]
 ];

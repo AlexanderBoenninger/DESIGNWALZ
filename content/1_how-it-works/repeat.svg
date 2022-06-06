@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="3_how-it-works" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="how_it_works/HOST-WALZER" transform="translate(-99.000000, -2545.000000)" stroke="#1D1D1C" stroke-width="3">
+            <g id="Group-5" transform="translate(100.500000, 2546.159794)">
+                <polyline id="Stroke-1" points="49.1446 0.0606 58.7096 9.6256 48.4356 19.8996"></polyline>
+                <path d="M54.7976,60.2243 C42.6056,60.2243 38.1476,44.6153 36.9186,37.4493 C35.3096,28.0593 28.9816,7.8443 17.6876,7.8443 C8.1956,7.8443 0.4996,15.9903 0.4996,34.0323 C0.4996,53.3793 8.1956,60.2203 17.6876,60.2203 C27.1796,60.2203 34.1346,42.4263 35.8956,31.5113 C37.9426,18.8163 43.0116,9.4693 56.9846,9.4693" id="Stroke-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

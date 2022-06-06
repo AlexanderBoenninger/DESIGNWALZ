@@ -18,3 +18,25 @@ sections:
         text:
           - "nope"
           - "Ja, is wichtig!"
+
+      gap0:
+        type: gap
+      line0:
+        type: line
+      head0:
+        label: Questions
+        type: headline
+
+      question_block:
+        label: Fragen Blöcke
+        type: structure
+        fields:
+          secTitle:
+            type: text
+          fragen:
+
+            label: Frage
+            type: blocks
+            fieldsets:
+              - quest_text
+              - quest_textarea
