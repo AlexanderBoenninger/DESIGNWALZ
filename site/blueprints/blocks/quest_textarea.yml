@@ -1,0 +1,10 @@
+name: Q - Lange Antwort
+
+icon: question
+fields:
+  frage:
+    type: text
+    requiered: true
+  placeholder:
+    type: text
+    requiered: true

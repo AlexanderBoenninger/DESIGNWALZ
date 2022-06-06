@@ -14,7 +14,7 @@
 
 </head>
 <body>
-    <header class="header top-bar grid-x grid-container shadow ">
+    <header class="header top-bar grid-x shadow ">
       <a class="top-bar-right cell small-8 medium-7 branding" href="<?= $site->url() ?>">
         <h1>Design Walz</h1>
       </a>

@@ -17,7 +17,7 @@
     <div class="small-12 medium-6 space_top_40p ">
       <div class="double_image grid-x <?= $page->w_double_image_class_2()?>">
         <img src="<?= $page->howitworksimg()->tofile()->url() ?>" alt="">
-        <div class="big_brot-short-line text-center small-12 space_top_20p">
+        <div class="grande_brot text-center small-12 space_top_20p">
           <?= $page->howitworkstext()->kt() ?>
         </div>
       </div>
@@ -27,7 +27,7 @@
     <div class="small-12 medium-6 space_top_40p ">
       <div class="double_image grid-x <?= $page->w_double_image_class_2()?>">
         <img src="<?= $page->faqimg()->tofile()->url() ?>" alt="">
-        <div class="big_brot-short-line text-center small-12 space_top_20p">
+        <div class="grande_brot text-center small-12 space_top_20p">
           <?= $page->faqtext()->kt() ?>
         </div>
       </div>

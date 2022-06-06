@@ -29,7 +29,7 @@ body {
   --font-xsmall: 0.6em;
   --font-small: 17px;
   --font-big: 1.3em;
-  --font-grande: 2em;
+  --font-grande: 1.3em;
   --font-head: 2em;
 
 /* __________spacings___________ */
@@ -229,6 +229,7 @@ a:focus, a:hover {
   position: relative;
 }
 
+
 /* _____________foundation end______________ */
 
 
@@ -261,7 +262,7 @@ h3 {
 }
 h2 {
   font-family: "TTHoves-DemiBold", Helvetica, Arial, sans-serif;
-  font-size: var(--font-big);
+  font-size: var(--font-grande);
   line-height: 1.1em;
   margin-bottom: 0px;
 }
@@ -294,15 +295,15 @@ p {
   font-size: var(--font-big);
   line-height: 1.1em;
 }
-.big_brot-short-line{
+/* .big_brot-short-line{
   line-height: .9em;
-}
+} */
 .big_brot p:not(:first-of-type) {
   text-indent: 0.5em;
 }
-.grande_brot, .grande_brot p, .grande_brot span {
+.grande_brot {
   font-size: var(--font-grande);
-  line-height: 1.12em;
+  line-height: 0.9em;
 }
 .thin_brot{
   font-family: "TTHoves-Light", Helvetica, Arial, sans-serif;
@@ -372,11 +373,11 @@ a.button:hover {
 
 .menu_link, .first_menu_link {
   font-family: "TTHoves-DemiBold", Helvetica, Arial, sans-serif;
-  font-size: var(--font-grande);
+  font-size: var(--font-head);
 }
 .menu_contact_link, .menu_law_link{
   font-family: "TTHoves-Regular", Helvetica, Arial, sans-serif;
-  font-size: var(--font-grande);
+  font-size: var(--font-head);
 }
 .menu_law_link{
   font-size: var(--font-small);
@@ -425,7 +426,7 @@ em {
 }
 
 .space_left_20p {
-  margin-left: var(--space20);
+  margin-left: var(--space20) !important;
 }
 .space_left_12p {
   margin-left: var(--space12);
@@ -534,6 +535,7 @@ padding: 0em;
   margin-left: 1.25rem;
   text-align: right;
   display: none;
+  font-size: var(--font-head);
 }
 .quick_reach .menu_link:first-of-type{
   margin-left: auto;
@@ -558,7 +560,7 @@ padding: 0em;
 
 
 .first_menu_link, .menu_contact_link, .menu_law_link{
-  margin: 0.5em 0.8rem;
+  margin: 0.5em 0.8rem 0em 0rem;
 }
 .menu_law_link:first-of-type{
   margin: 1em 0.8rem;
@@ -737,9 +739,12 @@ margin: 0px 0px 5px 0.8rem;
 }
 
 .button_text {
-  padding: 5px 20px;
+  padding: 0.5em 1.25em;
   text-align: center;
 }
+
+
+
 .hover_react{
   background: var(--transparent);
   -webkit-transition: all .2s ease-in-out;
@@ -981,6 +986,44 @@ left:-2.6em;
 .col_1_team {
   grid-column: 1/span 5;
 }
+
+/* .quest-block{
+  width: 100%;
+} */
+
+.form_send{
+  display: none;
+}
+input[type=submit].button_text{
+    background:unset;
+    border:0 none;
+}
+textarea {
+  resize: none;
+  min-height: 5em;
+}
+input[type=text], textarea{
+    font-family: inherit;
+    height: 2.4375rem;
+    padding: .5rem;
+    background-color: var(--white);
+    font-weight: unset;
+    line-height: unset;
+    color: var(--black_text);
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    -webkit-transition: border-color .25s ease-in-out;
+    transition: border-color .25s ease-in-out;
+}
+input:placeholder-shown, textarea:placeholder-shown {
+  border: var(--line_thick) solid var(--grey);
+}
+input[type=text]:focus, input:not(:placeholder-shown), textarea:not(:placeholder-shown){
+    border: var(--line_thick) solid var(--black);
+}
+
+
+
 /* ________________________about__________________________________________ */
 
 /* .about_team_1, .about_team_2 {
@@ -1089,7 +1132,7 @@ footer {
 /* 640 */
 @media screen and (min-width: 40em) {
   :root{
-    --font-big: 1.6em;
+    --font-big: 1.3em;
   }
 .top-bar .top-bar-right{
   margin-left: 0px;
@@ -1143,12 +1186,16 @@ footer {
   .double-drop-kasten-rechts{
     margin-left: 1rem !important;
   }
+
+/* __________form___________ */
+
 }
 /* 1024 */
 @media screen and (min-width: 64em) {
 :root{
   --font-small: 20px;
-  --font-big: 1.3em;
+  --font-big: 1.6em;
+  --font-grande: 2em;
 }
 
   .stack_content h3, .stack_content .quick_how, .stack_content .expand_button{
@@ -1166,7 +1213,7 @@ footer {
     }
 
   *, html{
-        font-size: 1.2vw;
+        font-size: 1.3vw;
     }
 
   }

@@ -1,1 +1,19 @@
 Title: survey
+
+----
+
+Tomenu: false
+
+----
+
+Question-block:
+
+- 
+  sectitle: Walzer I.
+  fragen: '[{"content":{"frage":"Aus welcher Stadt\/welchem Land kommst Du?","placeholder_1":"Name","placeholder_2":"Nachname"},"id":"9329a320-1dc3-44bb-93f8-e8026ae590ae","isHidden":false,"type":"quest_text"},{"content":{"frage":"Wo hast du studiert \/ gelernt?","placeholder_1":"Hochschule \/ Unternehmen","placeholder_2":""},"id":"4eb30e97-f2ec-45c1-81dd-480472de882b","isHidden":false,"type":"quest_text"},{"content":{"frage":"Worin siehst du die gr\u00f6\u00dften Herrausforderungen?","placeholder":"Schreib uns was feines"},"id":"cc3984be-8f6d-418f-961c-44d60ae5aafd","isHidden":false,"type":"quest_textarea"}]'
+- 
+  sectitle: Questions for Walzer II.
+  fragen: '[{"content":{"frage":"Noch ne Frage?","placeholder":"Schreib was du denkst"},"id":"65e7d261-1124-446f-beb1-7493a81a95ca","isHidden":false,"type":"quest_textarea"},{"content":{"frage":"Jeah Jeah","placeholder_1":"Schau","placeholder_2":""},"id":"f6fa216a-903c-4a4f-94a6-2aa1b75e3a0f","isHidden":false,"type":"quest_text"}]'
+- 
+  sectitle: Für Walzer III.
+  fragen: '[{"content":{"frage":"Frage 1","placeholder_1":"D","placeholder_2":""},"id":"89421e2f-7ab6-47d4-bc6c-939994e211b8","isHidden":false,"type":"quest_text"}]'

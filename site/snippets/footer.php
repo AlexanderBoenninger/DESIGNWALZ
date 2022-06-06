@@ -58,6 +58,7 @@
 <?= js(['assets/js/vendor/foundation.min.js', '@auto']) ?>
 <?= js(['assets/js/rellax.min.js', '@auto']) ?>
 <?= js(['assets/js/lottie-player.js', '@auto']) ?>
+<?= js(['assets/slick/slick.min.js', '@auto']) ?>
 <?= js(['assets/js/app.js', '@auto']) ?>
 
 </html>

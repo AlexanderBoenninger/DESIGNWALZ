@@ -42,14 +42,35 @@ $(document).ready(function() {
 
     // ––––––––––––Linie nach Zahl––––––––––––
     $( "<hr>" ).insertAfter( ".quick_step_numb:not(:last-of-type)" );
-    // $( "<div class='vertikal-border'>" ).insertAfter( ".expand_step_numb" );
 
     if (mq_0.matches) {
       $(".medium_remove_hide").addClass("hidden")
     }
 
+// ––––––––––––survey––––––––––––
+    var block_count = document.querySelectorAll(".form-block").length;
+    console.log(block_count);
+    var i = 0;
+    $('#block_next').click(function(){
+      a = ++i;
+      $('#form-block-' + a).addClass("hidden");
+      b = i++;
+      $('#form-block-' + b).removeClass("hidden");
+
+      if(a = block_count){
+        $( ".form-block" ).each(function() {
+          $( this ).removeClass( "hidden" );
+          });
+        $('#block_next').addClass(".hidden");
+        $('#form_send').removeClass("hidden");
+        }
+    });
+// ––––––––––––surveyend––––––––––––
+
     var rellax = new Rellax('.rellax');
 });
+
+
 function sizeing(doc) {
   let hArr = doc.querySelectorAll(".stack");
   let h2Arr = doc.querySelectorAll(".stack_sized");
@@ -87,7 +108,7 @@ $(".howto_h").click(function(){
     100);
 });
 
-$(".quick_step_numb, .for_host_switch, .for_walzer_switch").click(function () {
+$(".quick_step_numb, .for_host_switch, .for_walzer_switch, #block_next").click(function () {
   setTimeout(function () {
     sizeing(document);
   },

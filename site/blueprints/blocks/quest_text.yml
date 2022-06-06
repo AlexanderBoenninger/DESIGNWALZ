@@ -1,0 +1,12 @@
+name: Q - Kurze Antwort
+
+icon: question
+fields:
+  frage:
+    type: text
+    requiered: true
+  placeholder_1:
+    type: text
+    requiered: true
+  placeholder_2:
+    type: text

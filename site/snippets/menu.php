@@ -1,6 +1,9 @@
 <nav id="menu" class="top-bar-left cell grid-x small-auto menu ">
 
-  <div id="hole_menu" class="grid-x hidden">
+  <div id="hole_menu" class="hidden">
+    <div class="grid-x grid-container">
+
+
     <div class="first_menu">
       <?php foreach($subs as $sub): ?>
         <div <?php e($sub->isOpen(), 'class="active"') ?>>
@@ -32,7 +35,7 @@
 
 
     </div>
-
+</div>
   </div>
 
 
