@@ -1,8 +1,8 @@
 <?php snippet('header') ?>
 
  <form class="">
-    <?php foreach ($page->question_block()->toStructure() as $question_block): ?>
-        <div id="form-block-<?= $question_block->indexOf()?>" class="form-block" focus="
+    <?php foreach ($page->question_block()->toStructure() as $key => $question_block): ?>
+        <div id="form-block-<?= $question_block->indexOf()?>" class="form-block <?= ($key > 0) ? "hidden" : "" ?>" focus="
           <?php if ($question_block->isfirst()): ?>
             this
           <?php endif; ?>
@@ -16,7 +16,7 @@
 
  </div>
  <section class="grid-x grid-container">
-   <div id="block_next" class=" cell small-10 small-offset-1 grid-x space_bottom_80p">
+   <div id="block_next" class=" cell small-10 small-offset-1 grid-x space_bottom_80p" data-active-form-partial-id="0">
      <a class="button large small-only-expanded center medium-large click_ani space_top_20p">
        <div class="stack stack_1_layer white">
          <p class="big_brot button_text"> <?php echo t('next') ?></p>
