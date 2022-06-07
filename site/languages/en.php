@@ -21,6 +21,7 @@ return [
     'signin' => 'sign in',
     'name' => 'name',
     'surname' => 'surname',
+    'back' => 'back',
     'next' => 'next',
     'send' => 'send',
   ]
