@@ -48,22 +48,21 @@ $(document).ready(function() {
     }
 
 // ––––––––––––survey––––––––––––
-    var block_count = document.querySelectorAll(".form-block").length;
-    console.log(block_count);
-    var i = 0;
-    $('#block_next').click(function(){
-      a = ++i;
-      $('#form-block-' + a).addClass("hidden");
-      b = i++;
-      $('#form-block-' + b).removeClass("hidden");
+    var formPartials = $('.form-block'),
+        formPartialsLength = formPartials.length;
 
-      if(a = block_count){
-        $( ".form-block" ).each(function() {
-          $( this ).removeClass( "hidden" );
-          });
-        $('#block_next').addClass(".hidden");
-        $('#form_send').removeClass("hidden");
-        }
+    $('#block_next').click(function(e) {
+      var activeFormPartialID = $(this).data('active-form-partial-id');
+      activeFormPartialID++;
+
+      $(this).data('active-form-partial-id', activeFormPartialID);
+
+      formPartials.each(function(index) {
+        $(formPartials[index]).toggleClass('hidden', index !== activeFormPartialID);
+      });
+
+      $('#block_next').toggleClass('hidden', ((formPartialsLength - 1) <= activeFormPartialID));
+      $('#form_send').toggleClass('hidden', ((formPartialsLength - 1) !== activeFormPartialID));
     });
 // ––––––––––––surveyend––––––––––––
 
