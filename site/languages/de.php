@@ -21,6 +21,7 @@ return [
     'name' => 'Vorname',
     'surname' => 'Nachname',
     'next' => 'weiter',
+    'back' => 'zurück',
     'send' => 'senden',
   ]
 ];

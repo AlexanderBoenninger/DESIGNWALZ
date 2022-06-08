@@ -48,22 +48,41 @@ $(document).ready(function() {
     }
 
 // ––––––––––––survey––––––––––––
-    var block_count = document.querySelectorAll(".form-block").length;
-    console.log(block_count);
-    var i = 0;
-    $('#block_next').click(function(){
-      a = ++i;
-      $('#form-block-' + a).addClass("hidden");
-      b = i++;
-      $('#form-block-' + b).removeClass("hidden");
+    var formPartials = $('.form-block'),
+        formPartialsLength = formPartials.length;
 
-      if(a = block_count){
-        $( ".form-block" ).each(function() {
-          $( this ).removeClass( "hidden" );
-          });
-        $('#block_next').addClass(".hidden");
-        $('#form_send').removeClass("hidden");
-        }
+    $('#block_next').click(function(e) {
+      var activeFormPartialID = $(this).data('active-form-partial-id');
+      activeFormPartialID++;
+      $(this).data('active-form-partial-id', activeFormPartialID);
+      console.log(activeFormPartialID);
+      formPartials.each(function(index) {
+        $(formPartials[index]).toggleClass('hidden', index !== activeFormPartialID);
+      });
+      $('#block_next').toggleClass('hidden', ((formPartialsLength - 1) <= activeFormPartialID));
+      $('#form_send').toggleClass('hidden', ((formPartialsLength - 1) !== activeFormPartialID));
+      $('#block_back').toggleClass('disabled', ((activeFormPartialID < 1 )));
+    });
+
+    $('#block_back').click(function(e) {
+
+      var activeFormPartialID = $('#block_next').data('active-form-partial-id');
+
+      if (activeFormPartialID < 1 ) {
+
+      } else {
+        activeFormPartialID--;
+        $('#block_next').data('active-form-partial-id', activeFormPartialID);
+        console.log(activeFormPartialID);
+        formPartials.each(function(index) {
+          $(formPartials[index]).toggleClass('hidden', index !== activeFormPartialID);
+        });
+
+        $('#block_next').toggleClass('hidden', ((formPartialsLength - 1) <= activeFormPartialID));
+        $('#form_send').toggleClass('hidden', ((formPartialsLength - 1) !== activeFormPartialID));
+        $('#block_back').toggleClass('disabled', ((activeFormPartialID < 1 )));
+      }
+
     });
 // ––––––––––––surveyend––––––––––––
 
@@ -108,7 +127,7 @@ $(".howto_h").click(function(){
     100);
 });
 
-$(".quick_step_numb, .for_host_switch, .for_walzer_switch, #block_next").click(function () {
+$(".quick_step_numb, .for_host_switch, .for_walzer_switch, #block_next, #block_back").click(function () {
   setTimeout(function () {
     sizeing(document);
   },
